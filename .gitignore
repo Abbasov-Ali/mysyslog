@@ -1,52 +1,95 @@
-# Prerequisites
-*.d
-
 # Object files
 *.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
+*.lo
 
 # Precompiled Headers
 *.gch
 *.pch
 
 # Libraries
-*.lib
 *.a
 *.la
 *.lo
 
 # Shared objects (inc. Windows DLLs)
-*.dll
 *.so
-*.so.*
+.so.
 *.dylib
+*.dll
 
 # Executables
 *.exe
 *.out
 *.app
-*.i*86
-*.x86_64
-*.hex
 
 # Debug files
-*.dSYM/
-*.su
-*.idb
+*.d
 *.pdb
+*.idb
+*.ilk
 
 # Kernel Module Compile Results
-*.mod*
+*.ko
+*.mod.c
+*.mod
+*.mod.o
+*.mod.ko
 *.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+
+# Precompiled Headers
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.o
+
+# Windows image files
+*.hex
+*.eep
+*.bin
+*.elf
+
+# Visual Studio files
+*.sln
+*.suo
+*.vcxproj
+*.vcxproj.filters
+*.ncb
+*.sdf
+*.aps
+*.opensdf
+*.tlog
+*.vspscc
+*_i.c
+*_p.c
+*.nupkg
+
+# Специфичные бинарные файлы нашего проекта
+mysyslog-client
+mysyslog-daemon
+
+# Лог-файлы
+*.log
+.log.
+
+# Временные файлы и папки сборки
+build/
+obj/
+
+# Файлы и папки deb-пакетов
+debian/files
+debian/.substvars
+debian/.debhelper
+debian/*.debhelper.log
+debian/tmp/
+*.deb
+
+# Системные файлы Windows
+Thumbs.db
+Desktop.ini
